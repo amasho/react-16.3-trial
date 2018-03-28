@@ -1,0 +1,12 @@
+{
+  "name": "react-16.3-trial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/amasho/react-16.3-trial.git",
+  "author": "<amasho@dev-cycle.io>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.3.0-rc.0",
+    "react-dom": "^16.3.0-rc.0"
+  }
+}

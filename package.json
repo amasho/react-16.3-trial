@@ -5,8 +5,42 @@
   "repository": "ssh://git@github.com/amasho/react-16.3-trial.git",
   "author": "<amasho@dev-cycle.io>",
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "eslint-fix": "eslint --fix app",
+    "eslint": "eslint app",
+    "flow": "flow"
+  },
   "dependencies": {
-    "react": "^16.3.0-rc.0",
-    "react-dom": "^16.3.0-rc.0"
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "flow-bin": "^0.70.0",
+    "flow-typed": "^2.4.0",
+    "flowtype": "^2.0.0",
+    "prettier": "^1.12.1",
+    "react-hot-loader": "^4.1.1",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
   }
 }

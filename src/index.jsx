@@ -1,4 +1,4 @@
-// @flow
+/* @flow */
 import 'react-hot-loader'
 
 import React from 'react'
